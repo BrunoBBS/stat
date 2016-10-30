@@ -60,9 +60,9 @@ function simulate(){
     var data = [face1, face2, face3, face4, face5, face6];
 
     var layout = {
-        title:'Frequencia X Lançamentos',
+        title:'Frequência X Lançamentos',
         height: 600,
-        width: 1000,
+        //width: 1000,
         xaxis: { title: 'Lançamentos'},
         yaxis: { title: 'Frequência'}
     };
