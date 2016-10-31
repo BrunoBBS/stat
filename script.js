@@ -38,7 +38,7 @@ function simulate(){
 
     var n = document.getElementById("qtd").value;
     times = [0,0,0,0,0,0];
-    for (var i = 0; i < n; i++){
+    for (var i = 1; i <= n; i++){
         var rand = Math.floor((Math.random() * 6));
         times[rand] = times[rand] + 1;
 
